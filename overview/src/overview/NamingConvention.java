@@ -1,7 +1,7 @@
 package overview; // package all small( seperated by dots )
-public class NamingConvention{ // class camelcase starts with caps
+public class NamingConvention implements Printable{ // class camelcase starts with caps
     int rollNo; // variable camel case
-    void show() // function camel case
+    public void show() // function camel case
     {
         System.out.println("Hello World");
     }
