@@ -9,6 +9,11 @@ public class Student {
 		name = n;
 	}
 	
+	public Student(Student s) {
+		rollNo = s.rollNo;
+		name = s.name;
+	}
+	
 	void showStudentDetails() {
 		System.out.println(rollNo + " " + name);
 	}
