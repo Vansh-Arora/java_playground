@@ -1,5 +1,5 @@
 package Inheritance;
-
+// Single Inheritance Employee -> Tester
 public class Tester extends Employee{
 	float bonus = 5000;
 	
