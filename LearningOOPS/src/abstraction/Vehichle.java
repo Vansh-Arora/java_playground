@@ -1,7 +1,15 @@
 package abstraction;
 
 abstract class Vehichle {
-	public static void main(String args[]) {
-		System.out.println("yo");
+	float mileage = 0; //data member
+	
+	Vehichle(){ // constructor
+		System.out.println("Vehichle is created");
 	}
+	
+	void run() { // non abstract method
+		System.out.println("Running");
+	}
+	
+	abstract void tellType(); // abstract method
 }
