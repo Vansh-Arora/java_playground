@@ -13,5 +13,6 @@ public class KTM implements Engine,Brake{
 		KTM duke = new KTM();
 		duke.start();
 		duke.applyBrake();
+		System.out.println(duke.power);
 	}
 }
