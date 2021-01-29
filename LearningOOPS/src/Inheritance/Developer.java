@@ -1,5 +1,5 @@
 package Inheritance;
-// Hierarchical Inheritance Employee -> Tester && Employee -> Developer
+// Hierarchical Inheritance Employee -> Tester && Employee -> Developer.
 public class Developer extends Employee {
 	int bonus = 50000;
 	public static void main(String args[]) {
