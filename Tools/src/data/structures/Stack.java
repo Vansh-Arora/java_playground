@@ -1,6 +1,6 @@
 package data.structures;
 
-abstract class Stack {
+class Stack {
 	
 	int top;
 	int stack[] = new int[10];
@@ -37,7 +37,7 @@ abstract class Stack {
 			System.out.println("Stack empty");
 		}
 		else {
-			System.out.println(stack[top--]);
+			System.out.println(stack[top--] + " popped");
 		}
 	}
 	void print() {
